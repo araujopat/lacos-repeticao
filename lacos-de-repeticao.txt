@@ -1,0 +1,7 @@
+Segue os links dos exercicios
+
+questão 1 https://github.com/araujopat/lacos-repeticao/blob/main/src/questao1.java
+
+questão 3 https://github.com/araujopat/lacos-repeticao/blob/main/src/repeticao3.java
+
+questão 5 https://github.com/araujopat/lacos-repeticao/blob/main/src/questao5.java

@@ -1,9 +1,28 @@
 package teste;
 
 public class Animal {
-	private String Nome;
-	private int Idade;
-	private String Som;
+	 String Nome;
+	 int Idade;
+	 String Som;
+	 String tipoanimal;
+	
+	public Animal(String tipo)
+	{
+		this.tipoanimal= tipo;
+	}
+	public String getTipoanimal() {
+		return tipoanimal;
+	}
+	public void setTipoanimal(String tipoanimal) {
+		this.tipoanimal = tipoanimal;
+	}
+	public Animal (String nome, int idade, String som, String acao)
+	{
+		this.Nome=nome;
+		this.Idade = idade;
+		this.Som = som;		
+						
+	}
 	
 	
 	public String getSom() {
@@ -14,17 +33,6 @@ public class Animal {
 	public void setSom(String som) {
 		Som = som;
 	}
-
-
-	public Animal (String nome, int idade, String som, String acao)
-	{
-		this.Nome=nome;
-		this.Idade = idade;
-		this.Som = som;		
-		
-				
-	}
-
 
 	public String getNome() {
 		return Nome;

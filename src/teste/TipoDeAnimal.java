@@ -33,6 +33,9 @@ public class TipoDeAnimal extends Animal{
 		System.out.println(cavalo.getNome());
 		System.out.println(preguica.getSom());
 		
+		
+
+		
 	}
 	
 	
